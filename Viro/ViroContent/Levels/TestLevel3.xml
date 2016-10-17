@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="LevelMap.LevelMap">
+    <listOfObjects>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -500 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>44</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -400 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>45</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>48</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -200 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>49</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -100 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>50</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>51</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 100 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>53</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 200 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>54</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 300 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>55</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 400 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>56</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 500 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>57</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/trigger</modelName>
+        <obj>TRIGGER</obj>
+        <linkedObjects>59</linkedObjects>
+        <light Null="true" />
+        <objectID>58</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 100 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>59</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 250 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/viroPortRight</modelName>
+        <obj>SWITCH</obj>
+        <linkedObjects>61</linkedObjects>
+        <light Null="true" />
+        <objectID>60</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 400 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>61</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -400 -100 0 1</worldMatrix>
+        <modelName>Models/viro</modelName>
+        <obj>PLAYER</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>62</objectID>
+        <enabled>true</enabled>
+      </Item>
+    </listOfObjects>
+    <listOfLights>
+      <Item>
+        <type>DIRECTIONAL</type>
+        <position>-21 210 0</position>
+        <lightSpecularColour>50 150 150 100</lightSpecularColour>
+        <intensity>0</intensity>
+        <lightColor>100 100 100 0</lightColor>
+        <direction>-1 1 1</direction>
+        <radius>20</radius>
+      </Item>
+    </listOfLights>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="LevelMap.LevelMap">
+    <listOfObjects>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -200 -1600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/testlevel</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>57</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2250 4000 0 1</worldMatrix>
+        <modelName>Models/viro</modelName>
+        <obj>PLAYER</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>58</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>59</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -650 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>60</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -900 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>MOVABLEPLATFORM</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>61</objectID>
+        <enabled>true</enabled>
+      </Item>
+    </listOfObjects>
+    <listOfLights>
+      <Item>
+        <type>POINT</type>
+        <position>-3254 1632 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-3099 951 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-966 533 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-2716 2644 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-260 1597 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-610 -524 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-3701 -343 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-2236 3852 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+      <Item>
+        <type>POINT</type>
+        <position>-1344 2516 0</position>
+        <lightSpecularColour>50 50 50 100</lightSpecularColour>
+        <intensity>20</intensity>
+        <lightColor>25 25 25 0</lightColor>
+        <direction>0 0 0</direction>
+        <radius>20</radius>
+      </Item>
+    </listOfLights>
+  </Asset>
+</XnaContent>

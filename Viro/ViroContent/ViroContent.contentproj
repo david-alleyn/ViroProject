@@ -1,0 +1,818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{45EF265E-E687-4B38-8B39-11A1157808F0}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ViroContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Xen.Ex.ModelImporter">
+      <HintPath>..\Xen\bin\Xen.Ex.ModelImporter\Xen.Ex.ModelImporter.dll</HintPath>
+    </Reference>
+    <Reference Include="Xen.Ex.ParticleSystemImporter">
+      <HintPath>..\Xen\bin\Xen.Ex.ParticleSystemImporter\Xen.Ex.ParticleSystemImporter.dll</HintPath>
+    </Reference>
+    <Reference Include="Xen.Graphics.ShaderSystem">
+      <HintPath>..\Xen\bin\x86\Debug\Xen.Graphics.ShaderSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\1x1_t_infected.jpg">
+      <Name>1x1_t_infected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor1b.FBX">
+      <Name>dangerfloor1b</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\testlevel.FBX">
+      <Name>testlevel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Models\dude.fbx">
+      <Name>dude</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_RotationY>180</ProcessorParameters_RotationY>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Font\Arial.spritefont">
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Screens\MainMenu.png">
+      <Name>MainMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Buttons\StartBtn.png">
+      <Name>StartBtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Selected.png">
+      <Name>Selected</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Buttons\OptionsBtn.png">
+      <Name>OptionsBtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Buttons\QuitBtn.png">
+      <Name>QuitBtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LevelMap\LevelMap.csproj">
+      <Project>{F621C505-3DBD-4165-A878-60997D9EF778}</Project>
+      <Name>LevelMap</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Screens\Virus.png">
+      <Name>Virus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Rocket.X">
+      <Name>Rocket</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_Scale>2.5</ProcessorParameters_Scale>
+    </Compile>
+    <Compile Include="Models\Turtle.X">
+      <Name>Turtle</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_Scale>2.5</ProcessorParameters_Scale>
+    </Compile>
+    <Compile Include="Sounds\TestViroSong1.wav">
+      <Name>TestViroSong1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Slider\Slider.png">
+      <Name>Slider</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Menu\Slider\SliderBar.png">
+      <Name>SliderBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\viroPortLeft.FBX">
+      <Name>viroPortLeft</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_Scale>2</ProcessorParameters_Scale>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\viroPortRight.FBX">
+      <Name>viroPortRight</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_Scale>1</ProcessorParameters_Scale>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\1x1.FBX">
+      <Name>1x1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x10.FBX">
+      <Name>1x10</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x2.FBX">
+      <Name>1x2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x3.FBX">
+      <Name>1x3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x4.FBX">
+      <Name>1x4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x5.FBX">
+      <Name>1x5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x6.FBX">
+      <Name>1x6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x7.FBX">
+      <Name>1x7</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x8.FBX">
+      <Name>1x8</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x9.FBX">
+      <Name>1x9</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sounds\BossTheme1.wav">
+      <Name>BossTheme1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\LevelTheme1.wav">
+      <Name>LevelTheme1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Sounds\MenuTheme1.wav">
+      <Name>MenuTheme1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\backgroundnew.jpg">
+      <Name>backgroundnew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sounds\ViroXact.xap">
+      <Name>ViroXact</Name>
+      <Importer>XactImporter</Importer>
+      <Processor>XactProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\dangerfloor1a.FBX">
+      <Name>dangerfloor1a</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor1c.FBX">
+      <Name>dangerfloor1c</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor2a.FBX">
+      <Name>dangerfloor2a</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor2b.FBX">
+      <Name>dangerfloor2b</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor2c.FBX">
+      <Name>dangerfloor2c</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor3a.FBX">
+      <Name>dangerfloor3a</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor3b.FBX">
+      <Name>dangerfloor3b</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\dangerfloor3c.FBX">
+      <Name>dangerfloor3c</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\floatyPlatform1.FBX">
+      <Name>floatyPlatform1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\floatyPlatform2.FBX">
+      <Name>floatyPlatform2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\floatyPlatform3.FBX">
+      <Name>floatyPlatform3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\floatyPlatform4.FBX">
+      <Name>floatyPlatform4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\slantedBlock1.FBX">
+      <Name>slantedBlock1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\slantedBlock2.FBX">
+      <Name>slantedBlock2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\slantedBlock3.FBX">
+      <Name>slantedBlock3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\slantedBlock4.FBX">
+      <Name>slantedBlock4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\slantedBlock5.FBX">
+      <Name>slantedBlock5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\smallerBlock1.FBX">
+      <Name>smallerBlock1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\smallerBlock2.FBX">
+      <Name>smallerBlock2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\smallerBlock3.FBX">
+      <Name>smallerBlock3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\smallerBlock4.FBX">
+      <Name>smallerBlock4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Storyboard\ViroPoster.jpg">
+      <Name>ViroPoster</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\Background.jpg">
+      <Name>Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\BetaVirus.FBX">
+      <Name>BetaVirus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\foreground.png">
+      <Name>foreground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Levels\Middleground.png">
+      <Name>Middleground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\2x1door.FBX">
+      <Name>2x1door</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\trigger.FBX">
+      <Name>trigger</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\2x1door_t.jpg">
+      <Name>2x1door_t</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\trigger_t.jpg">
+      <Name>trigger_t</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\NewScratchLevel.xml">
+      <Name>NewScratchLevel</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\TestLevel3.xml">
+      <Name>TestLevel3</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\tendril.FBX">
+      <Name>tendril</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\waypoint.FBX">
+      <Name>waypoint</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Noise.png">
+      <Name>Noise</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Storyboard\Prisonfinal.jpg">
+      <Name>Prisonfinal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Storyboard\ViroPosterFinal.jpg">
+      <Name>ViroPosterFinal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Health\HealthBar1.png">
+      <Name>HealthBar1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar2.png">
+      <Name>HealthBar2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar3.png">
+      <Name>HealthBar3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar4.png">
+      <Name>HealthBar4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar5.png">
+      <Name>HealthBar5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar6.png">
+      <Name>HealthBar6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\viroX.X">
+      <Name>viro</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_Scale>2.5</ProcessorParameters_Scale>
+      <ProcessorParameters_AnimationCompressionTolerancePercent>0</ProcessorParameters_AnimationCompressionTolerancePercent>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Health\HealthBar10.png">
+      <Name>HealthBar10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar7.png">
+      <Name>HealthBar7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar8.png">
+      <Name>HealthBar8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\HealthBar9.png">
+      <Name>HealthBar9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\1x1a.FBX">
+      <Name>1x1a</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+    <Compile Include="Levels\LevelObjects\1x1b.FBX">
+      <Name>1x1b</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\PipeDiagonal1.FBX">
+      <Name>PipeDiagonal1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\PipeDiagonal2.FBX">
+      <Name>PipeDiagonal2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\PipeEnd.FBX">
+      <Name>PipeEnd</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\PipeMid1.FBX">
+      <Name>PipeMid1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\PipeMid2.FBX">
+      <Name>PipeMid2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\CapacitorLarge02.FBX">
+      <Name>CapacitorLarge02</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\CapacitorMedium01.FBX">
+      <Name>CapacitorMedium01</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\CapacitorSmall01.FBX">
+      <Name>CapacitorSmall01</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Walker.FBX">
+      <Name>Walker</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Storyboard\Hallway.jpg">
+      <Name>Hallway</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Particles\Snow.particles">
+      <Name>Snow</Name>
+      <Importer>ParticleSystemDataImporter</Importer>
+      <Processor>ParticleSystemDataProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Buttons\ControlsBtn.png">
+      <Name>ControlsBtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Screens\Controls.jpg">
+      <Name>Controls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Health\Lives.png">
+      <Name>Lives</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Storyboard\Failed.png">
+      <Name>Failed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\test.xml">
+      <Name>test</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\testWorked.xml">
+      <Name>testWorked</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Screens\menu.png">
+      <Name>menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Buttons\BackBtn.png">
+      <Name>BackBtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Buttons\HowToPlayBtn.png">
+      <Name>HowToPlayBtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Menu\Buttons\SettingsBtn.png">
+      <Name>SettingsBtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\Screens\HowToPlay.jpg">
+      <Name>HowToPlay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Health\AntiGravBar1.png">
+      <Name>AntiGravBar1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar10.png">
+      <Name>AntiGravBar10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar2.png">
+      <Name>AntiGravBar2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar3.png">
+      <Name>AntiGravBar3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar4.png">
+      <Name>AntiGravBar4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar5.png">
+      <Name>AntiGravBar5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar6.png">
+      <Name>AntiGravBar6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar7.png">
+      <Name>AntiGravBar7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar8.png">
+      <Name>AntiGravBar8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Health\AntiGravBar9.png">
+      <Name>AntiGravBar9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\Infected_Platform.FBX">
+      <Name>Infected_Platform</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\LevelInfection.FBX">
+      <Name>LevelInfection</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_Scale>1</ProcessorParameters_Scale>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\green_neon_pipes.FBX">
+      <Name>green_neon_pipes</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\red_neon_pipes.FBX">
+      <Name>red_neon_pipes</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\Blue_neon_pipes.FBX">
+      <Name>Blue_neon_pipes</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelObjects\FloatingPlatform.FBX">
+      <Name>FloatingPlatform</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelImporter</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\WalkerAnimation.X">
+      <Name>WalkerAnimation</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelImporter</Processor>
+      <ProcessorParameters_Scale>0</ProcessorParameters_Scale>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Levels\LevelComplete.xml">
+      <Name>LevelComplete</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,4 @@
+Shoot 480 - 60
+Attack 600 - 60
+Dazed 720 - 60
+Die 840 - 60

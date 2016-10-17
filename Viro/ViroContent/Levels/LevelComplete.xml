@@ -1,0 +1,3320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="LevelMap.LevelMap">
+    <listOfObjects>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/testlevel</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>63</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/Blue_neon_pipes</modelName>
+        <obj>PIPE</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>64</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/green_neon_pipes</modelName>
+        <obj>PIPE</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>65</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/red_neon_pipes</modelName>
+        <obj>PIPE</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>66</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2150 4750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>67</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2000 4750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>68</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>5.96046448E-08 0.99999994 0 0 -0.99999994 5.96046448E-08 0 0 0 0 1 0 -1850 4750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>70</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2000 5800 0 1</worldMatrix>
+        <modelName>Models/viro</modelName>
+        <obj>PLAYER</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>71</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2600 4250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>72</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2500 4250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>73</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>5.96046448E-08 0.99999994 0 0 -0.99999994 5.96046448E-08 0 0 0 0 1 0 -2400 4250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>74</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>5.96046448E-08 -0.99999994 0 0 0.99999994 5.96046448E-08 0 0 0 0 1 0 -2400 4250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>75</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2250 4150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>78</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2150 4150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>79</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -200 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1b</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>88</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -100 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1b</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>89</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 200 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1b</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>92</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 100 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1b</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>93</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1b</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>94</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -200 2850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1b</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>95</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -100 2850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>96</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 -5.165762E-06 -1.08871734E-06 0 5.165762E-06 -1 2.38553852E-08 0 -1.08871757E-06 2.38497613E-08 1 0 -100 2850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>97</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 200 3100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>98</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 200 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>99</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2350 4150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>102</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1600 4400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>103</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1450 4400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>104</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 -7.724793E-06 -1.08871734E-06 0 7.724793E-06 -1 2.385817E-08 0 -1.08871757E-06 2.38497613E-08 1 0 -1300 4400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>106</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1300 4300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>107</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 4300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>108</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 -8.742278E-08 0 0 8.742278E-08 -1 0 0 0 0 1 0 -1000 4300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>109</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 200 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>111</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 -1.02838248E-05 -1.08871734E-06 0 1.02838248E-05 -1 2.38609559E-08 0 -1.08871757E-06 2.38497613E-08 1 0 200 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>112</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 100 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>113</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 1.156334E-05 -7.43859664E-06 0 1.156334E-05 1 2.3935776E-08 0 7.43859664E-06 2.38497613E-08 -1 0 -200 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>114</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3600 2750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>115</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3400 2750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>116</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3450 2650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>119</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1100 2850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>122</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1050 2950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>123</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1250 2950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>124</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1300 2850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>125</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1300 3400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>126</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 3300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>127</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1100 3400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>128</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1350 3300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>129</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3350 2650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>130</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3000 2950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>131</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2750 2950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/floatyPlatform2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>132</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2500 2950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>135</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3200 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>136</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3100 2550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>137</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3000 2550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>138</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1350 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>139</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1450 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>140</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1250 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>141</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1250 3050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>142</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>143</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1300 3150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>144</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1200 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>145</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 3100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>146</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1500 3250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>147</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -950 2800 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>148</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -900 2900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>149</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-0.999999762 1.28428564E-05 0.0006609689 0 1.2884635E-05 1 6.320408E-05 0 -0.0006609681 6.321258E-05 -0.999999762 0 -1000 3300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>150</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1500 3150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>151</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-0.999999762 1.28428564E-05 0.0007500566 0 1.281008E-05 1 -4.370395E-05 0 -0.000750057166 -4.369433E-05 -0.999999762 0 -1400 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>152</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1550 3500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>153</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1450 2850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>154</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>0.9999995 -1.28428555E-05 -0.000972784939 0 -1.32258347E-05 -1 -0.000393688155 0 -0.0009727798 0.000393700844 -0.9999995 0 -1400 2950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>155</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1100 2750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>156</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -500 4150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>157</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -200 3750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>158</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -250 3050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>159</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 250 2800 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>160</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 6.039832E-07 0 5.43845177E-12 -1 -9.0043095E-06 0 6.039832E-07 9.0043095E-06 -1 0 -1400 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>161</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 -6.45875043E-05 0 3.35130035E-09 -1 -5.188775E-05 0 -6.45875043E-05 -5.188775E-05 1 0 -1500 3150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>162</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 -1.2318161E-06 0 -1.07688781E-13 -1 8.742278E-08 0 -1.2318161E-06 8.742278E-08 1 0 -1450 2850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>164</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2050 2350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>165</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1950 2250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>166</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1850 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>167</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 -6.45875043E-05 0 8.90563234E-10 -1 -1.37884754E-05 0 -6.45875043E-05 -1.37884754E-05 1 0 -1850 2250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>168</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1850 2250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>169</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-0.9999992 -2.842171E-14 0.001142049 0 6.5311383E-07 -0.9999997 0.0005718786 0 0.00114204874 0.000571879 0.999999166 0 -1950 2350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>170</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1950 2350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>171</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1750 2050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>172</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 0.000159510164 0 1.33409737E-08 1 8.363714E-05 0 -0.000159510164 8.363714E-05 -1 0 -1750 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>176</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>0.9999999 0 -0.000527334458 0 -1.02907116E-07 -0.9999999 -0.000195145767 0 -0.000527334458 0.0001951458 -0.999999762 0 -1750 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>177</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3550 3000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>178</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-0.999999762 0 0.0005896968 0 -1.41344643E-07 1 -0.000239690315 0 -0.0005896968 -0.000239690344 -0.999999762 0 -3450 3000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>179</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>0.9999998 0 -0.0006164236 0 -2.8661978E-07 -0.99999994 -0.000464972021 0 -0.0006164235 0.000464972138 -0.999999762 0 -3550 3100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>180</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 50 1600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>183</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -50 1600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>184</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -250 1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>185</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -350 1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>186</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -500 1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>187</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -600 1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>188</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 -1 -2.38497613E-08 0 0 2.38497613E-08 -1 0 -1850 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>189</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 1.32721516E-06 0 1.54103483E-11 -1 1.16110405E-05 0 1.32721516E-06 1.16110405E-05 1 0 -1750 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>190</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 2050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>193</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 2100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>194</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>195</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1600 2050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>196</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1600 2100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>197</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1600 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>198</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3050 3050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>199</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3050 3100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>200</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3050 3150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>201</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2450 3050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>202</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2450 3100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>203</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2450 3150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>204</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1300 4000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>208</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1300 4050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>209</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1300 4100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>210</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 4000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>211</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 4050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>212</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 4100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>213</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2900 2450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>216</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2900 2500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>217</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2900 2550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>218</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2300 2450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>219</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2300 2500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>220</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2300 2550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>221</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1900 4300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>223</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1800 4300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>224</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1650 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>225</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1950 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>226</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1500 1050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>227</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1500 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>228</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1500 1150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>229</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 1050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>235</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>236</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 0 1150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>237</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2750 1050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>239</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3050 1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>240</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3250 1300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>241</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3650 1250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>242</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3350 550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>243</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3050 550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x5</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>244</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 -1.2318161E-06 0 0 1 0 0 1.2318161E-06 0 -1 0 -2750 550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>245</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3250 450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>246</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 1.32721516E-06 0 0 1 0 0 -1.32721516E-06 0 -1 0 -2850 450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>247</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3600 0 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>249</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3400 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>250</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3400 0 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>251</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3400 50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>252</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2400 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>253</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2400 0 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>254</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2400 50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>255</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3850 350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>259</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 450 -300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>266</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 600 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>267</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 800 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>268</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1600 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>269</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1200 -650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>270</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1600 -900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>271</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1000 -1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>273</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1650 -1000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>275</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1650 -500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>276</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 450 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>277</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1400 -1050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>278</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1350 -650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>279</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2450 -1200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>280</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 -1400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>281</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 -1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>282</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2950 -900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>284</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2700 -1300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>285</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3250 -850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>286</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 -850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>287</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 -450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>288</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3550 -700 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>289</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3250 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>290</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2550 -450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>291</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>292</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3000 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>293</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3700 -200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>294</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 2.38497613E-08 0 0 1 0 0 -2.38497613E-08 0 -1 0 3600 -1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>295</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2500 -1300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>296</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2350 -450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>297</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2650 -550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>298</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 3.88624676E-06 0 0 1 0 0 -3.88624676E-06 0 -1 0 2750 -550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>299</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 9.75913E-06 0 1.55668045E-09 -1 -0.000159510164 0 9.75913E-06 0.000159510164 -1 0 2750 -550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>300</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3200 150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>301</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3650 400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>302</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3350 700 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>303</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3700 850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>304</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 1150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>305</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3700 1400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>306</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 1700 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>307</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3700 2000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>308</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 2350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>309</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 1900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>310</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 1300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>311</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>312</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 3.88624676E-06 0 -1.85372117E-13 1 -4.76995226E-08 0 -3.88624676E-06 -4.76995226E-08 -1 0 3350 1050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>313</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 9.0043095E-06 0 -4.2950127E-13 1 -4.76995226E-08 0 -9.0043095E-06 -4.76995226E-08 -1 0 3350 1600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>314</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 -2.64882328E-05 0 1.26347609E-12 1 -4.76995226E-08 0 2.64882328E-05 -4.76995226E-08 -1 0 3350 2250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>315</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 -550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>316</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 950 -1200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>317</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 -8.998702E-05 0 4.29233775E-12 1 -4.76995226E-08 0 8.998702E-05 -4.76995226E-08 -1 0 1050 -1200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>318</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 1650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>319</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 3.4785422E-05 0 -1.659248E-12 1 -4.76995226E-08 0 -3.4785422E-05 -4.76995226E-08 -1 0 3350 1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>320</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 1000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>321</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3000 150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>322</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 600 -1550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>327</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 600 -1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>328</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 600 -1450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>329</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3200 -1550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>330</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3200 -1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>331</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3200 -1450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>332</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2750 -950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1a</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>333</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>-1 0 2.38497613E-08 0 0 1 0 0 -2.38497613E-08 0 -1 0 2350 -1000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/slantedBlock3</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>336</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -850 4100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>337</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -850 4050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>338</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -850 4000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>339</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1100 4000 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>340</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -550 4000 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>341</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -550 2050 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>342</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -700 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>343</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -700 2100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>344</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -700 2050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>345</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>346</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 2100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>347</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 2050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>348</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -950 2100 0 1</worldMatrix>
+        <modelName>Models/Rocket</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>349</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1400 2050 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>350</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2750 3050 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>351</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2350 1150 0 1</worldMatrix>
+        <modelName>Models/Rocket</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>352</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2150 1200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>353</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2150 1150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>354</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2150 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>355</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2150 1050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>356</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2600 1050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>357</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2600 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>358</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2600 1150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>359</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2600 1200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>360</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1100 -550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>361</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1100 -500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>362</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1100 -450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>363</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1400 -550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>364</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1400 -500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>365</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1400 -450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>366</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1250 -550 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>367</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -800 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>368</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>369</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -700 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>370</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3350 -750 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>371</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3350 -700 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>372</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3350 -650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>373</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3150 -750 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>374</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3100 -300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>375</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3100 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>376</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3100 -200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>377</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 -300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>378</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>379</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 -200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>380</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3250 -250 0 1</worldMatrix>
+        <modelName>Models/Rocket</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>381</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 1800 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>382</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 1850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>383</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 1900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>384</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 2100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>385</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 2150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>386</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 2200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>387</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 2450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>388</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 2500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>389</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 2550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>390</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 1800 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>391</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3750 2100 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>392</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3400 2450 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>393</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>394</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>395</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>396</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>397</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2350 -350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>398</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2350 -300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>399</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2350 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>400</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2350 -200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>401</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2350 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>402</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>403</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2500 -300 0 1</worldMatrix>
+        <modelName>Models/Rocket</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>404</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1100 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>405</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1400 -400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>406</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1100 -350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>407</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1400 -350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>408</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 600 -1400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>409</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 600 -1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>410</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3200 -1400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>411</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3200 -1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>412</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3350 -600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>413</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>414</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>415</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2800 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>416</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2350 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>417</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 1950 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>418</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 2000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>419</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 2250 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>420</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 2300 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>421</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3600 2350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>422</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>423</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 2650 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>424</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3500 2700 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>425</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1150 2200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>426</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1600 2200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>427</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -700 2200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>428</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 2200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>429</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2300 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>430</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2900 2600 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>431</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2450 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>432</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3050 3200 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>433</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -850 4150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>434</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -800 4000 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>435</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -800 4050 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>436</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -800 4100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>437</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -800 4150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>438</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2550 50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/1x1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>439</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3524 1121 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>440</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3525 1672 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>441</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3532 2263 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>442</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3325 1955 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>443</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3602 482 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>444</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3578 1979 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock2</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>445</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1850 -1550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>446</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1850 -1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>447</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1850 -1450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>448</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1850 -1400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>449</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1850 -1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>450</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1900 -1550 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>451</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1900 -1500 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>452</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1900 -1450 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>453</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1900 -1400 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>454</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1900 -1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>455</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 1050 -1550 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>456</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 2700 -1550 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>457</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 3000 -1350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>458</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2650 4350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/viroPortLeft</modelName>
+        <obj>PORT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>459</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2700 4350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/smallerBlock1</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>460</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3700 2900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/viroPortLeft</modelName>
+        <obj>PORT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>464</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3700 2900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/dangerfloor3c</modelName>
+        <obj>STATIC</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>465</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3700 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/viroPortLeft</modelName>
+        <obj>PORT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>468</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -4250 50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/viroPortLeft</modelName>
+        <obj>PORT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>473</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2950 -50 0 1</worldMatrix>
+        <modelName>Models/Turtle</modelName>
+        <obj>MINION</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>475</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2250 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>478</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2250 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>479</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1450 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>480</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1450 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>481</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2250 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>482</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1450 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>483</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1400 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>484</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1400 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>485</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1400 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>486</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 -50 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>487</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 -100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>488</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -300 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/waypoint</modelName>
+        <obj>WAYPOINT</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>489</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2600 4350 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/trigger</modelName>
+        <obj>TRIGGER</obj>
+        <linkedObjects>491 492 492 493 494 494 493 493 492 492 491 491 491</linkedObjects>
+        <light Null="true" />
+        <objectID>490</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -150 3850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>491</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -50 3850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>492</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 50 3850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>493</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 150 3850 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>494</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3650 2900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/trigger</modelName>
+        <obj>TRIGGER</obj>
+        <linkedObjects>496 497</linkedObjects>
+        <light Null="true" />
+        <objectID>495</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -50 1900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>496</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 50 1900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>497</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2100 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/FloatingPlatform</modelName>
+        <obj>MOVABLEPLATFORM</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>498</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -1250 -150 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/FloatingPlatform</modelName>
+        <obj>MOVABLEPLATFORM</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>499</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3250 900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>500</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3150 900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>501</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3050 900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>502</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -2950 900 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/2x1door</modelName>
+        <obj>DOOR</obj>
+        <linkedObjects />
+        <light Null="true" />
+        <objectID>503</objectID>
+        <enabled>true</enabled>
+      </Item>
+      <Item>
+        <worldMatrix>1 0 0 0 0 1 0 0 0 0 1 0 -3650 1100 0 1</worldMatrix>
+        <modelName>Levels/LevelObjects/trigger</modelName>
+        <obj>TRIGGER</obj>
+        <linkedObjects>502</linkedObjects>
+        <light Null="true" />
+        <objectID>504</objectID>
+        <enabled>true</enabled>
+      </Item>
+    </listOfObjects>
+    <listOfLights />
+  </Asset>
+</XnaContent>

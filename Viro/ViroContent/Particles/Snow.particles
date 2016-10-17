@@ -1,0 +1,121 @@
+<?xml version ="1.0" encoding ="utf-8" standalone ="yes"?>
+<particlesystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../../../bin/Xen.Ex.ParticleSystemImporter/particlesystem.xsd">
+
+  <!-- 
+		This particle system is here to look pretty
+		It's not intended to teach anything specific.
+		
+		For more detailed explaination of the particle system format, see Tutorial 21, and Fireworks.particles
+	-->
+
+  <system frame_rate="60hz">
+
+    <frame>
+      <loop count="50">
+        <emit type="sheild" life="1"/>
+        <emit type="sheildup" life="1"/>
+      </loop>
+    </frame>
+
+  </system>
+
+  <particle name="sheild" blend ="alpha" texture="flake.png">
+    <logic>
+      <once>
+        <rand_smooth target="local0" arg0="-40" arg1="40"/>
+        <add target="position.x" arg0="local0"/>
+
+        <rand_smooth target="local0" arg0="-50" arg1="50"/>
+        <add target="position.z" arg0="local0"/>
+
+        <set target="position.y" arg0="100"/>
+        <rand target="velocity.y" arg0="-250" arg1="-300"/>
+
+        <set target="size" arg0="0.2"/>
+        <rand_smooth target="alpha" arg0="0.25" arg1="1"/>
+
+        <sub target="local0" arg0="40" arg1="position.x"/>
+        <div target="local1" arg0="local0" arg1="160"/>
+        <set target="red"  arg0="local0" />
+
+        <add target="local0" arg0="position.x" arg1="40"/>
+        <div target="local1" arg0="local0" arg1="160"/>
+        <set target="green"  arg0="local1" />
+
+        <add target="local0" arg0="0" arg1="position.x"/>
+        <div target="local1" arg0="local0" arg1="160"/>
+        <set target="blue"  arg0="local1" />
+        <!--
+        <rand_smooth target="red"  arg0="1" arg1="1"/>
+        <rand_smooth target="green" arg0="1" arg1="1"/>
+        <rand_smooth target="blue" arg0="0" arg1="0.25"/>
+        -->
+      </once>
+
+      <frame>
+        <if_less arg0="position.y" arg1="-100">
+          <set target="alpha" arg0="0"></set>
+        </if_less>
+      </frame>
+
+      <!--
+        <frame>
+        <mul target="alpha" arg0="age" arg1="0.25"/>
+        <saturate target="alpha" arg0="alpha"/>
+        
+        <if_less arg0="position.y" arg1="0">
+          <set target="velocity.x" arg0="0"/>
+          <set target="velocity.y" arg0="0"/>
+          <set target="velocity.z" arg0="0"/>
+
+          <div target="local0" arg0="age" arg1="life"/>
+          <sub target="alpha" arg0="1" arg1="local0"/>
+        </if_less>
+        
+        <mul target="alpha" arg0="0.5"/>
+        </frame>
+        -->
+
+
+
+      </logic>
+  </particle>
+
+  <particle name="sheildup" blend ="alpha" texture="flake.png">
+    <logic>
+      <once>
+        <rand_smooth target="local0" arg0="-40" arg1="40"/>
+        <add target="position.x" arg0="local0"/>
+
+        <rand_smooth target="local0" arg0="-50" arg1="50"/>
+        <add target="position.z" arg0="local0"/>
+
+        <set target="position.y" arg0="-100"/>
+        <rand target="velocity.y" arg0="250" arg1="300"/>
+
+        <set target="size" arg0="0.2"/>
+        <rand_smooth target="alpha" arg0="0.25" arg1="1"/>
+
+        <sub target="local0" arg0="40" arg1="position.x"/>
+        <div target="local1" arg0="local0" arg1="160"/>
+        <set target="red"  arg0="local0" />
+
+        <add target="local0" arg0="position.x" arg1="40"/>
+        <div target="local1" arg0="local0" arg1="160"/>
+        <set target="green"  arg0="local1" />
+
+        <add target="local0" arg0="0" arg1="position.x"/>
+        <div target="local1" arg0="local0" arg1="160"/>
+        <set target="blue"  arg0="local1" />
+      </once>
+
+      <frame>
+        <if_greater arg0="position.y" arg1="100">
+          <set target="alpha" arg0="0"></set>
+        </if_greater>
+      </frame>
+    </logic>
+  </particle>
+
+</particlesystem>
